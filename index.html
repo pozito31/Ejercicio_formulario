@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+</head>
+<body>
+
+  <h2>Registro</h2>
+
+  <form action="/submit" method="post">
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <br>
+    <div>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required>
+    </div>
+    <br>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <br>
+    <div>
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required>
+    </div>
+    <br>
+    <div>
+      <label for="tipo-via">Tipo de vía:</label>
+      <select id="tipo-via" name="tipo-via">
+        <option value="calle">Calle</option>
+        <option value="avenida">Avenida</option>
+        <option value="paseo">Paseo</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="nombre-via">Nombre de la vía:</label>
+      <input type="text" id="nombre-via" name="nombre-via" required>
+    </div>
+    <br>
+    <div>   
+      <label for="numero">Número:</label>
+      <input type="text" id="numero" name="numero" required>
+    </div>
+    <br>
+    <div>
+      <label for="codigo-postal">Código postal:</label>
+      <input type="text" id="codigo-postal" name="codigo-postal" required>
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" id="casilla" name="casilla">
+      <label for="casilla">Casilla de verificación</label>
+    </div>
+    <br>
+    <div>
+      <label for="opcion1">Opción 1:</label>
+      <input type="radio" id="opcion1" name="opcion" value="opcion1">
+      <label for="opcion2">Opción 2:</label>
+      <input type="radio" id="opcion2" name="opcion" value="opcion2">
+    </div>
+    <br>
+    <div>
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</body>
+</html>
